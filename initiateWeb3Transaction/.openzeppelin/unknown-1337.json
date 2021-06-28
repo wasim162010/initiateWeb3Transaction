@@ -1,0 +1,35 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x84e182120a42E1efEf42466b903B8Cb56e2eAAeb",
+    "txHash": "0x8e10ee2a4b5ae72de12b3158d6d0de0073a8ee4f185543e3d712e5d4760d4d36"
+  },
+  "proxies": [
+    {
+      "address": "0xf831063d459F4C12D8f7B1F6462171516fba3d15",
+      "txHash": "0xa030890b7ad0edabd85333aacbdbf0d5c4f637937bbabf8133c16eeb74f50a3a",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "8ca1f005e987be867b45bc19f029b3e9d381f8faf28d5e35aee1abaec2bf74d3": {
+      "address": "0x0F091ba784e6bAD46308e2B6d9841ac68CeAAE29",
+      "txHash": "0x2f00ca05efa84bc5bc5b44abdc0520ff0d9c80085c3741d10f0acba29bcdfa44",
+      "layout": {
+        "storage": [
+          {
+            "contract": "CounterContract",
+            "label": "incVar",
+            "type": "t_uint256",
+            "src": "CounterContract.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    }
+  }
+}
